@@ -459,7 +459,7 @@ export default function Portfolio() {
             <span className="text-2xl font-bold font-[family-name:var(--font-display)] bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">
               EP
             </span>
-            <span className="text-muted-foreground">Full Stack Engineer | AI Solutions</span>
+            <span className="text-muted-foreground">Full Stack Software Engineer | AI Solutions</span>
           </div>
           <p className="text-sm text-muted-foreground">
             © {new Date().getFullYear()} Ernest Paul. All rights reserved.
