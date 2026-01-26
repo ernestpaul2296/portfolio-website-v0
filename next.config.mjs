@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/portfolio-website-v0',
+  basePath: process.env.GITHUB_PAGES === 'true' ? '/portfolio-website-v0' : '',
   typescript: {
     ignoreBuildErrors: true,
   },
