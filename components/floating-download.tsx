@@ -6,7 +6,7 @@ import { Download, Share2, X, FileText } from "lucide-react"
 import { useIsMobile } from "@/hooks/use-mobile"
 import { cn } from "@/lib/utils"
 
-const RESUME_URL = "https://blobs.vusercontent.net/blob/Ernest%20Paul-RNQ82aGKirTn3JkgcRRBGCrnhriMZv.pdf"
+const RESUME_URL = "/Ernest-Paul-PMP-Resume.pdf"
 
 export function FloatingDownloadButton() {
   const isMobile = useIsMobile()
@@ -21,7 +21,7 @@ export function FloatingDownloadButton() {
   const handleDownload = () => {
     const link = document.createElement("a")
     link.href = RESUME_URL
-    link.download = "Ernest_Paul_Resume.pdf"
+      link.download = "Ernest_Paul_PMP_Resume.pdf"
     link.target = "_blank"
     document.body.appendChild(link)
     link.click()
@@ -33,8 +33,8 @@ export function FloatingDownloadButton() {
     if (navigator.share) {
       try {
         await navigator.share({
-          title: "Ernest Paul - Resume",
-          text: "Check out Ernest Paul's resume - Full Stack Engineer",
+          title: "Ernest Paul - PMP Resume",
+          text: "Check out Ernest Paul's resume - Software Engineer & Project Manager",
           url: RESUME_URL
         })
       } catch {

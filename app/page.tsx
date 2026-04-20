@@ -32,53 +32,57 @@ import { TechBadge } from "@/components/tech-badge"
 
 const experiences = [
   {
-    company: "Deriv",
-    role: "Full Stack Software Engineer - AI | Flutter | React",
-    period: "Jan 2024 - Present",
+    company: "Sharkhood Tech",
+    role: "Project Manager - Technical IT Delivery",
+    period: "Feb 2026 - Apr 2026",
     location: "Dubai, UAE",
     isCurrent: true,
     description: [
-      "Engineered cross-platform trading and P2P money transfer apps with Flutter/Dart, scaling to 1M+ global downloads",
-      "Deployed an end-to-end P2P platform enabling 85K+ monthly transactions and $45M+ annual deposits",
-      "Accelerated development cycles by 60% using AI-powered tools with up to 90% code auto-generation",
-      "Shipped AI-driven personalization and automation features with Generative AI + LLM integrations"
+      "Collaborated with CEO and stakeholders to translate product vision into technical delivery plans for AI-driven FoodTech and MedTech platforms",
+      "Directed delivery of AI Solutions, web and mobile applications, overseeing architecture design and development sprint execution",
+      "Defined product strategy, growth initiatives, and innovation priorities with cross-functional leadership",
+      "Led go-to-market strategies and strategic partnerships to enhance platform capabilities and market reach"
     ],
-    technologies: ["Flutter", "React", "AI/LLM"]
+    technologies: ["Project Management", "AI Solutions", "Agile"]
   },
   {
     company: "Deriv",
-    role: "Full Stack Engineer | Scrum Master",
-    period: "Dec 2022 - Dec 2023",
+    role: "Technical Project Manager / Scrum Master",
+    period: "Dec 2022 - Feb 2026",
     location: "Dubai, UAE",
     description: [
-      "Led a team of 6 in implementing Scrum practices and enhancing team collaboration",
-      "Created the complete P2P web platform using ReactJS, TypeScript, Redux, Firebase, WebSockets",
-      "Integrated DataTheorem vulnerability scanning into CI/CD pipelines for security compliance"
+      "Led AI adoption and research, accelerating development cycles by 60% through advanced AI-driven tools achieving 90% automated code generation",
+      "Developed and globally launched P2P Money Transfer platform using Flutter and React, serving 1M+ users across multiple regions",
+      "Managed end-to-end releases for trading applications on iOS, Android, and web via App Store, Google Play, and CI/CD integration",
+      "Facilitated Scrum ceremonies and enhanced Agile workflows, optimizing sprint velocity and team collaboration across distributed teams"
     ],
-    technologies: ["IT Project Management", "Mobile App Development"]
+    technologies: ["Project Management", "Agile/Scrum", "AI Adoption"]
   },
   {
     company: "Surfboard Payments",
-    role: "Software Engineer",
-    period: "Sep 2020 - Nov 2022",
+    role: "Project Lead / Software Engineer",
+    period: "Sep 2020 - Dec 2022",
     location: "Chennai, India",
     description: [
-      "Developed implementation roadmaps in collaboration with clients and design teams",
-      "Optimized application architecture for performance and memory management",
-      "Oversaw mobile app development team from conceptualization to production release"
+      "Developed implementation roadmaps in collaboration with clients, product designers, and development teams",
+      "Engineered mobile applications using Flutter framework, optimizing architecture for performance and scalability",
+      "Oversaw mobile app development team from conceptualization to production release on App Store and Google Play",
+      "Led hiring, training, and career development strategies for team members, enhancing skill development and team quality"
     ],
-    technologies: ["Flutter", "Dart", "Mobile Development"]
+    technologies: ["Flutter", "Project Leadership", "Team Management"]
   },
   {
-    company: "Notion Press Media",
-    role: "Sales Consultant",
+    company: "Notion Press",
+    role: "Pre-Sales Consultant",
     period: "Jun 2019 - Jun 2020",
     location: "Chennai, India",
     description: [
-      "Led generation of 400 sales prospects monthly with strategic upselling techniques",
-      "Established a presales team, optimized processes to increase paid sales prospects"
+      "Led generation of 400 sales prospects monthly, implementing strategic upselling techniques to boost paid customer conversions",
+      "Translated complex client requirements into structured deliverables, connecting expectations with actionable project outlines",
+      "Established presales team and optimized processes to increase volume of paid sales prospects, directly contributing to revenue growth",
+      "Facilitated communication between clients and internal teams, enhancing mutual understanding of workflows and processes"
     ],
-    technologies: ["Sales", "Presales", "Client Relations"]
+    technologies: ["Sales Strategy", "Client Relations", "Business Development"]
   }
 ]
 
@@ -192,8 +196,8 @@ export default function Portfolio() {
             </span>
             <span className="block mt-4 text-xl md:text-2xl lg:text-3xl font-medium leading-relaxed text-muted-foreground">
               <TypewriterText 
-                text="Full Stack Software Engineer crafting Web, Mobile & AI Solutions that scale to millions of users"
-                duration={4500}
+                text="Software Engineer & Project Manager building and managing tech & AI solutions from ideation to release"
+                duration={5000}
               />
             </span>
           </h1>
@@ -255,10 +259,10 @@ export default function Portfolio() {
               <span className="text-sm font-mono text-primary">// SERVICES</span>
             </div>
             <h2 className="text-3xl md:text-4xl font-bold font-[family-name:var(--font-display)] mb-4">
-              What I Can Build For <span className="bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">Your Business</span>
+              Solutions I <span className="bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">Build & Manage</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-12">
-              From web and mobile apps to AI-driven solutions, I deliver end-to-end engineering for your digital products
+              Strategic technical leadership across product development, AI adoption, and software delivery—from vision to production-ready solutions at scale
             </p>
           </AnimatedSection>
 
@@ -276,32 +280,32 @@ export default function Portfolio() {
               <span className="text-sm font-mono text-primary">// ABOUT ME</span>
             </div>
             <h2 className="text-3xl md:text-4xl font-bold font-[family-name:var(--font-display)] mb-8">
-              Building the Future, <span className="bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">One App at a Time</span>
+              Leading Innovation: From <span className="bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">Ideation to Release</span>
             </h2>
           </AnimatedSection>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <AnimatedSection delay={0.1}>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                I help businesses grow and scale by building Web, Mobile, and AI-powered solutions. My apps have reached <span className="text-foreground font-semibold">1M+ users</span> across fintech and edtech, driving measurable outcomes and real business impact.
+                PMP-certified software engineer and technical project manager with 6+ years of experience delivering technology and AI solutions across fintech, payments, and edtech. I specialize in managing the complete software development lifecycle—from product vision and strategy through architecture design, agile execution, and successful deployment to production serving <span className="text-foreground font-semibold">1M+ users</span>.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                {"In today's fast-paced digital world, I combine frontend engineering, backend architecture, and applied AI to create automated, scalable, and production-ready solutions."}
+                {"My approach combines technical expertise in full-stack development with strategic project management, leveraging AI adoption and advanced tooling to accelerate delivery, optimize team collaboration, and ensure market-ready solutions that drive measurable business impact."}
               </p>
             </AnimatedSection>
 
             <div className="grid grid-cols-2 gap-4">
               <AnimatedCard delay={0.2}>
-                <StatsCard icon={Users} value="1M+" label="Users reached across apps" />
+                <StatsCard icon={Users} value="1M+" label="Users across platforms" />
               </AnimatedCard>
               <AnimatedCard delay={0.3}>
-                <StatsCard icon={Zap} value="60%" label="Faster development with AI" />
+                <StatsCard icon={Zap} value="60%" label="Faster with AI adoption" />
               </AnimatedCard>
               <AnimatedCard delay={0.4}>
-                <StatsCard icon={Layers} value="Full Stack" label="End-to-end solutions" />
+                <StatsCard icon={Layers} value="6+ Years" label="Full lifecycle delivery" />
               </AnimatedCard>
               <AnimatedCard delay={0.5}>
-                <StatsCard icon={Brain} value="AI-First" label="LLMs & intelligent automation" />
+                <StatsCard icon={Brain} value="PMP" label="Certified PM & Leader" />
               </AnimatedCard>
             </div>
           </div>
@@ -459,7 +463,7 @@ export default function Portfolio() {
             <span className="text-2xl font-bold font-[family-name:var(--font-display)] bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">
               EP
             </span>
-            <span className="text-muted-foreground">Full Stack Software Engineer | AI Solutions</span>
+            <span className="text-muted-foreground">Software Engineer & Project Manager | Product Strategy & Delivery</span>
           </div>
           <p className="text-sm text-muted-foreground">
             © {new Date().getFullYear()} Ernest Paul. All rights reserved.

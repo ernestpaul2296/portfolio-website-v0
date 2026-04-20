@@ -2,47 +2,47 @@
 
 import { useEffect, useState, useCallback } from "react"
 import { motion, AnimatePresence } from "framer-motion"
-import { Globe, Smartphone, Brain, Zap, Rocket, ChevronLeft, ChevronRight } from "lucide-react"
+import { Globe, Smartphone, Brain, Zap, Rocket, ChevronLeft, ChevronRight, GitBranch, BarChart3 } from "lucide-react"
 import { cn } from "@/lib/utils"
 
 const services = [
   {
-    icon: Globe,
-    title: "Web Applications",
-    description: "Full-stack web apps with React, Next.js, and Node.js that scale with your business",
-    tags: ["React.js", "Next.js", "Node.js", "TypeScript", "JavaScript", "Express.js", "NestJS", "MongoDB"],
+    icon: BarChart3,
+    title: "Product Strategy & Vision",
+    description: "Translate business objectives into technical delivery roadmaps, defining product strategy, growth initiatives, and innovation priorities that drive measurable impact",
+    tags: ["Product Strategy", "Roadmapping", "Stakeholder Alignment", "Growth Planning"],
     gradient: "from-blue-500 to-cyan-500",
     showTags: true
   },
   {
-    icon: Smartphone,
-    title: "Mobile Apps",
-    description: "Cross-platform mobile applications with Flutter reaching millions of users",
-    tags: ["Flutter", "Dart", "iOS/Android"],
+    icon: GitBranch,
+    title: "Full Lifecycle Software Delivery",
+    description: "End-to-end project management from ideation through architecture design, agile execution, and production deployment. Experience managing web, mobile, and AI-powered solutions",
+    tags: ["Agile/Scrum", "Architecture Design", "Sprint Management", "Release Management"],
     gradient: "from-emerald-500 to-teal-500",
     showTags: true
   },
   {
     icon: Brain,
-    title: "AI Solutions",
-    description: "Intelligent chatbots, AI assistants, and LLM-powered automation systems",
-    tags: ["LLMs", "Generative AI", "Agentic AI", "LangChain", "LangGraph", "RAG"],
+    title: "AI Adoption & Automation",
+    description: "Strategic AI implementation and adoption, leveraging LLMs, generative AI, and agentic systems to accelerate development and drive innovation in technical solutions",
+    tags: ["LLMs", "Generative AI", "AI Adoption", "Automation Architecture"],
     gradient: "from-pink-500 to-rose-500",
     showTags: true
   },
   {
     icon: Zap,
-    title: "Automation",
-    description: "Streamlined workflows and automated processes using AI and low-code tools",
-    tags: ["n8n", "CrewAI", "LangChain", "MCP"],
+    title: "Team Leadership & Execution",
+    description: "Lead cross-functional teams through agile ceremonies, foster collaboration, mentor engineers, and optimize team velocity while ensuring alignment with business goals",
+    tags: ["Team Management", "Scrum Mastery", "Mentoring", "Agile Coaching"],
     gradient: "from-amber-500 to-orange-500",
     showTags: true
   },
   {
     icon: Rocket,
-    title: "MVP Development",
-    description: "Rapid prototyping and proof-of-concept development for startups",
-    tags: ["React", "Next.js", "Flutter", "Python", "JavaScript"],
+    title: "Technical Stack & Architecture",
+    description: "Select and implement optimal technology stacks including React, Flutter, Node.js, OutSystems, and AI frameworks to deliver scalable, production-ready solutions",
+    tags: ["Full Stack Development", "System Architecture", "Technology Selection"],
     gradient: "from-indigo-500 to-purple-500",
     showTags: true
   }
