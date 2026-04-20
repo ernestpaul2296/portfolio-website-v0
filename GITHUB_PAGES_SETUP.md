@@ -38,9 +38,9 @@ The following changes have been made for GitHub Pages deployment:
    - Click Save
 
 2. **Push code to main branch:**
-   ```bash
+   \`\`\`bash
    git push origin main
-   ```
+   \`\`\`
 
 3. **GitHub Actions will automatically:**
    - Build the Next.js project
@@ -48,9 +48,9 @@ The following changes have been made for GitHub Pages deployment:
    - Deploy to the `gh-pages` branch
 
 4. **Your site will be live at:**
-   ```
+   \`\`\`
    https://ernestpaul2296.github.io/portfolio-website-v0
-   ```
+   \`\`\`
 
 ## Important Notes
 
@@ -63,9 +63,9 @@ The following changes have been made for GitHub Pages deployment:
 
 To test the build locally:
 
-```bash
+\`\`\`bash
 npm run build
 npx serve out
-```
+\`\`\`
 
 Then visit `http://localhost:3000/portfolio-website-v0` to preview.

@@ -196,7 +196,7 @@ export default function Portfolio() {
             </span>
             <span className="block mt-4 text-xl md:text-2xl lg:text-3xl font-medium leading-relaxed text-muted-foreground">
               <TypewriterText 
-                text="Software Engineer & Project Manager building and managing tech & AI solutions from ideation to release"
+                text="Project Manager & Software Engineer building and managing tech and AI solutions from ideation to release"
                 duration={5000}
               />
             </span>
